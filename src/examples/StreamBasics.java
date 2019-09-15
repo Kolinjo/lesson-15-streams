@@ -7,6 +7,16 @@ import java.util.stream.Stream;
 
 public class StreamBasics {
 	
+	/*
+	 * Stream predstavlja sekvencu podataka, ne omogucava cuvanje podataka nego ih pomera tako sto ih sortira, filtrira ili na
+	 * neki drugi nacin deluje na podatke tokom postupka primenjivanja streama nad podacima.
+	 * 
+	 * Dleovanje streama ne menja izvor podataka, kljucni aspekt API za rad sa streamovima podataka jeste mogucnost obavljanja
+	 * vrlo slozenih operacija pretrazivanja, filtriranja, preslikavanja, kloniranja, ili drugih vrsta obrada podataka.
+	 * 
+	 * 
+	 */
+	
 	public static void main(String[] args) {
 		
 		/* 3 phases in a Stream pipeline... */
